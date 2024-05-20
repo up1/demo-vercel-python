@@ -4,8 +4,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Hello, World!'
-
-@app.route('/about')
-def about():
-    return 'About'
+    return 'Hello Python + Flask on Vercel'
